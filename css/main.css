@@ -5,3 +5,34 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+html {
+  background-color: #f0eee8;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-color: #9a816d;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: left;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #512200;
+  padding-left: 1rem;
+}
+
+p {
+  text-align: left;
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  color: #512200;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
