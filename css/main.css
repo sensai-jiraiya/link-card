@@ -17,9 +17,17 @@ body {
   border-color: #9a816d;
   border-style: solid;
   border-radius: 8px;
+  margin: 0;
 }
 
-h2 {
+.btn {
+  text-decoration: none;
+
+}
+body:hover {
+   background-color: #cabdb2;
+ }
+ header h2 {
   text-align: left;
   font-family: "Dosis", sans-serif;
   font-weight: bold;
@@ -35,4 +43,7 @@ p {
   color: #512200;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+dl {
 }
