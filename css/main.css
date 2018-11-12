@@ -13,7 +13,7 @@ html {
   width: 100%;
   height: 2px;
   background: #9a816d;
-  margin: 0 0 1rem;
+  margin: .4rem;
 }
 
 .btn {
@@ -39,7 +39,7 @@ html {
   border-radius: 3px;
   margin: 0;
   padding: 1rem;
-  color:#785439;
+  color: #785439;
   border-style: solid;
   text-decoration: none;
   line-height: 1.5rem;
@@ -52,4 +52,47 @@ html {
   padding: 0;
   word-spacing: 30px;
   font-family: Georgia, serif;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  color: #fff;
+}
+
+.link-card:hover .btn {
+  background-color: #9a816d;
+}
+
+.link-card h2 {
+  margin: 0;
+  padding-top: .4rem;
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  text-align: left;
+  font-weight: bold;
+}
+
+.link-card p {
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  color: #512200;
+  padding-top: .3rem;
+}
+
+.left {
+  display: inline-block;
+  width: 20%;
+  font-family: Georgia, serif;
+  font-size: .875rem;
+  color: #512200;
+}
+
+.right {
+  display: inline-block;
+  width: 20%;
+  font-family: Georgia, serif;
+  color: #512200;
+  font-size: .875rem;
 }
