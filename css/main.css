@@ -38,6 +38,18 @@ html {
   border-width: 3px;
   border-radius: 3px;
   margin: 0;
+  padding: 1rem;
+  color:#785439;
+  border-style: solid;
+  text-decoration: none;
+  line-height: 1.5rem;
+}
 
-
+.list {
+  display: block;
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  word-spacing: 30px;
+  font-family: Georgia, serif;
 }
