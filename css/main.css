@@ -19,4 +19,25 @@ html {
 .btn {
   display: inline-block;
   text-align: center;
+  padding: .4em .75em .5em;
+  margin: 0;
+  background-color: #785439;
+  color: #fff;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+.link-card {
+  display: inline-block;
+  background-color: #dcd4cd;
+  border-color: #9a816d;
+  font-family: Dosis, sans-serif;
+  border-width: 3px;
+  border-radius: 3px;
+  margin: 0;
+
+
 }
